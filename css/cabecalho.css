@@ -52,6 +52,10 @@
   height: 2.5rem;
 }
 
+.cabecalho__atalhos {
+  margin-left: auto;
+}
+
 .cabecalho__atalho___link {
   display: inline-block;
   margin-right: .7rem;
@@ -70,4 +74,23 @@
 .cabecalho__atalho___texto:hover {
     opacity: 50%;
     text-decoration: underline;
+}
+
+.cabecalho__navegacao {
+  background: black;
+  margin-top: 1rem;
+  padding: 1rem 0;
+}
+
+.cabecalho__navegacao ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cabecalho__navegacao___link {
+  color: #f8f8f8;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  border: none;
+  text-decoration: none;
 }
