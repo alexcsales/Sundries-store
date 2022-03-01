@@ -1,14 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-/* css do rodapé*/
 
-.rodape {
-}
-
-@media screen and (min-width:1024px) {
-    .cabecalho {
-        flex-direction: row;
-        justify-content: space-around;
-    }
+.container {
+    padding: 0 3%;
 }
