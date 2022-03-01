@@ -2,73 +2,72 @@
     background: #f8f8f8;
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     padding-top: 2rem;
-    padding-bottom: 2rem;
 }
 
 .cabecalho__logo {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0.5rem;
 }
 
-.cabecalho__titulo {
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: rgb(231, 0, 0);
+.cabecalho__logo___titulo {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
-.cabecalho__imagem {
-    background:transparent;
-    border: none;
+.cabecalho__logo___imagem {
     width: 5vw;
 }
 
-.cabecalho__conteudo, .cabecalho__navegacao {
+.cabecalho__conteudo {
     display: flex;
     align-items: center;
 }
 
 .cabecalho__formulario {
-    padding-left: 0.2rem;
-    background-color: rgb(231, 0, 0);
-    border-radius: 5px;
+  padding-left: 0.2rem;
+  background-color: black;
+  border-radius: 5px;
 }
 
-.formulario__barra {
-    
-    width: 30vw;
-    height: 2rem;
-    border: none;
+.cabecalho__formulario___barra {
+  width: 30vw;
+  height: 2rem;
+  border: none;
+  font-size: 1rem;
+  padding-left: 1rem;
 }
 
-.formulario__botao {
-    background: none;
-    border: none;
-    text-align: center;
-    width: 2.5rem;
-    height: 2.5rem;
+.cabecalho__formulario___botao {
+  background: none;
+  color: #f8f8f8;
+  border: none;
+  text-align: center;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
-.cabecalho__link {
-    display: inline-block;
-    margin-right: .7rem;
-    margin-bottom: 1.25rem;
-    margin-left: .7rem;
+.cabecalho__atalho___link {
+  display: inline-block;
+  margin-right: .7rem;
+  margin-bottom: 1.25rem;
+  margin-left: .7rem;
 }
 
-.cabecalho__link-texto {
-    text-transform: uppercase;
-    color: rgb(231, 0, 0);
-    font-weight: bold;
-    font-size: 2rem;
-    text-decoration: none;
+.cabecalho__atalho___texto {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  text-decoration: none;
 }
 
-.cabecalho__link-texto:hover {
+.cabecalho__atalho___texto:hover {
     opacity: 50%;
     text-decoration: underline;
 }
