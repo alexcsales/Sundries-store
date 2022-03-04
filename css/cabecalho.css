@@ -1,25 +1,24 @@
 .cabecalho {
     background: #f8f8f8;
     width: 100%;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 .cabecalho__logo {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 0.5rem;
 }
 
 .cabecalho__logo___titulo {
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
 .cabecalho__logo___imagem {
-    width: 5vw;
+    width: 3vw;
 }
 
 .cabecalho__conteudo {
