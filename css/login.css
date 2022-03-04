@@ -1,0 +1,36 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem 0 1rem;
+}
+
+.formulario__texto {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 0.2rem;
+}
+
+.formulario__input {
+  margin-bottom: 0.3rem;
+  padding: 10px 25px;
+  width: 55%;
+}
+
+.formulario__botao {
+  width: 55%;
+  padding: 0.5rem 0;
+  font-size: 18px;
+  background: black;
+  color: #f8f8f8;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+  margin-left: 0.4rem;
+  margin-top: 0.2rem;
+}
+
+.formulario__botao:hover {
+  opacity: 50%;
+}
