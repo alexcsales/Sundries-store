@@ -34,6 +34,29 @@ const produtos = [
   }
 ]
 
+let usuario = false
+
+//exibe o formulario de login
+function loginUsuario() {
+  let login = document.getElementById('login');
+  carrinho.innerHTML = "";
+  login.innerHTML += `
+  <form class="formulario">
+  <label class="formulario__texto" for="nome">Usuário</label>
+  <input class="formulario__input" type="text" id="nome" required>
+
+  <label class="formulario__texto" for="senha">Senha</label>
+  <input class="formulario__input" type="password" id="senha" required placeholder="senha">
+
+  <button class="formulario__botao" type="submit">Login</button>
+</form>
+      `;
+}
+
+if (usuario == false) {
+  loginUsuario();
+}
+
 //exibe que meu carrinho esta vazio emquanto não estiver com produtos.
 let itens = 0
 
