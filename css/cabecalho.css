@@ -95,3 +95,8 @@ margin-right: 1rem;
   border: none;
   text-decoration: none;
 }
+
+.cabecalho__navegacao___link:hover, .ativo {
+  cursor: pointer;
+  text-decoration: underline;
+}
