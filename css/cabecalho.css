@@ -26,53 +26,6 @@
     align-items: center;
 }
 
-.cabecalho__formulario {
-  padding-left: 0.2rem;
-  background-color: black;
-  border-radius: 5px;
-}
-
-.cabecalho__formulario___barra {
-  width: 30vw;
-  height: 2rem;
-  border: none;
-  font-size: 1rem;
-  padding-left: 1rem;
-}
-
-.cabecalho__formulario___botao {
-  background: none;
-  color: #f8f8f8;
-  border: none;
-  text-align: center;
-  width: 2.5rem;
-  height: 2.5rem;
-}
-
-.cabecalho__atalhos {
-  margin-left: auto;
-}
-
-.cabecalho__atalho___link {
-  display: inline-block;
-  margin-right: .7rem;
-  margin-bottom: 1.25rem;
-  margin-left: .7rem;
-}
-
-.cabecalho__atalho___texto {
-  text-transform: uppercase;
-  color: black;
-  font-weight: bold;
-  font-size: 2rem;
-  text-decoration: none;
-}
-
-.cabecalho__atalho___texto:hover {
-    opacity: 50%;
-    text-decoration: underline;
-}
-
 .cabecalho__navegacao {
   background: black;
   margin-top: 1rem;
