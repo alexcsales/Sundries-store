@@ -34,6 +34,19 @@ const produtos = [
   }
 ]
 
+//exibe que meu carrinho esta vazio emquanto não estiver com produtos.
+let itens = 0
+
+if (itens == 0) {
+  carrinho.innerHTML = "";
+  carrinho.innerHTML += `
+  <div class="carrinho">
+  <p carrinho__texto">Carrinho vazio</P>
+  <hr>
+<div
+    `;
+}
+
 //confirmação de email do rodapé
 function confirmaEmail() {
   alert('Seu email foi cadastrado🎉🎉🎉');
