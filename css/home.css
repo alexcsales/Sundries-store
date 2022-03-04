@@ -52,3 +52,16 @@
   font-size: 1.5rem;
   padding-bottom: 1rem;
 }
+
+.produtos__adicionar {
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.produtos__adicionar:hover {
+  opacity: 50%;
+}
