@@ -57,6 +57,14 @@ if (usuario == false) {
   loginUsuario();
 }
 
+//confirma o login do usuario.
+function usuarioLogado() {
+  alert('agora você esta logado e já pode fazer suas compras')
+}
+
+document.querySelector('.formulario__botao').onclick = usuarioLogado;
+
+
 //exibe que meu carrinho esta vazio emquanto não estiver com produtos.
 let itens = 0
 
