@@ -4,9 +4,9 @@
 <hr>
   
 ### ⚙ Features
--[ ] Login/register<br>
--[x] Products<br>
--[x] Shopping cart<br>
+- [ ] Login/register<br>
+- [x] Products<br>
+- [x] Shopping cart<br>
 
 <h1 align="center">
   <img height="20%" width="60%" alt="GIF-Project"  src=""/>
@@ -25,9 +25,9 @@
     
  <h3>🛠 Technologies</h3>
     <p>The following tools were used in building the project:</p>
-    - HTML<br>
-    - CSS<br>
-    - JavaScript
+   - HTML<br>
+   - CSS<br>
+ - JavaScript
     <hr>
     
   <p>By ALEX 🤘 <a href='https://git-scm.com/downloads'>See my linkedin<a></p>
