@@ -33,4 +33,4 @@
  - JavaScript
     <hr>
     
-  <p>By ALEX🤘 <a href='https://git-scm.com/downloads'>See my linkedin<a></p>
+  <p>By ALEX🤘 <a href='https://www.linkedin.com/in/alexsales-dev/'>See my linkedin<a></p>
