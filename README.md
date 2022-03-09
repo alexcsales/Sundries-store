@@ -4,7 +4,7 @@
 <hr>
   
 ### ⚙ Features
--[] Login/register<br>
+-[ ] Login/register<br>
 -[x] Products<br>
 -[x] Shopping cart<br>
 
